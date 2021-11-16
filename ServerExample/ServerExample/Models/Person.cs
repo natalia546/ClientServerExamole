@@ -14,12 +14,14 @@ namespace ServerExample.Models
         public string Login { get => login; }
         string password;
         public string Password { get => password; }
+        public List<Exersice> Exersices;
 
         public Person(string name, string login, string password)
         {
             this.name = name;
             this.login = login;
             this.password = password;
+            Exersices = new List<Exersice>();
         }
 
         public void EditName(string editname)
