@@ -6,7 +6,7 @@ namespace ServerExample.MongoDb
 {
     public static class DbInfo
     {
-        public static string DbName = "Example";
+        public static string DbName = "test";
         public static string CollectionName = "Persons";
     }
 }

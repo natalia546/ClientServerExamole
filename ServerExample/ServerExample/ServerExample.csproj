@@ -134,6 +134,7 @@
     <Compile Include="Models\Step.cs" />
     <Compile Include="MongoDb\DbInfo.cs" />
     <Compile Include="MongoDb\MongoDbClass.cs" />
+    <Compile Include="MongoDb\TestClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -148,6 +149,12 @@
     <Content Include="Core\Compression\Snappy\lib\win\snappy64.dll" />
     <Content Include="Core\Compression\Zstandard\lib\win\libzstd.dll" />
     <Content Include="mongocrypt.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IServer\IServer.csproj">
+      <Project>{b736214e-f649-46fb-8df3-ad5a210cc81a}</Project>
+      <Name>IServer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MongoDB.Libmongocrypt.1.2.2\build\MongoDB.Libmongocrypt.targets" Condition="Exists('..\packages\MongoDB.Libmongocrypt.1.2.2\build\MongoDB.Libmongocrypt.targets')" />

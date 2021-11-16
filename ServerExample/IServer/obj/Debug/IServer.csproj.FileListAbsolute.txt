@@ -1,0 +1,6 @@
+D:\Git\Client server example\ClientServerExample\ServerExample\IServer\bin\Debug\IServer.exe.config
+D:\Git\Client server example\ClientServerExample\ServerExample\IServer\bin\Debug\IServer.exe
+D:\Git\Client server example\ClientServerExample\ServerExample\IServer\bin\Debug\IServer.pdb
+D:\Git\Client server example\ClientServerExample\ServerExample\IServer\obj\Debug\IServer.csproj.CoreCompileInputs.cache
+D:\Git\Client server example\ClientServerExample\ServerExample\IServer\obj\Debug\IServer.exe
+D:\Git\Client server example\ClientServerExample\ServerExample\IServer\obj\Debug\IServer.pdb

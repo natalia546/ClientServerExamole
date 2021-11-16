@@ -2,7 +2,7 @@
 
 namespace ServerExample.Models
 {
-    public class Exersice:DbData
+    public class Exersice
     {
         string title;
         public string Tiile { get => title; }

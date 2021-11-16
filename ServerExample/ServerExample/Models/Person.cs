@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,19 +11,19 @@ namespace ServerExample.Models
     public class Person : DbData
     {
         string name;
-        public string Name { get => name; }
+        public string Name { get => name; set => name = value; }
         string login;
-        public string Login { get => login; }
+        public string Login { get => login; set => login = value; }
         string password;
-        public string Password { get => password; }
-        public List<Exersice> Exersices;
+        public string Password { get => password; set => password = value; }
+     //   public List<Exersice> Exersices;
 
         public Person(string name, string login, string password)
         {
             this.name = name;
             this.login = login;
             this.password = password;
-            Exersices = new List<Exersice>();
+          
         }
 
         public void EditName(string editname)
@@ -41,7 +43,7 @@ namespace ServerExample.Models
 
         public override string ToString()
         {
-            return "Login: " + Id +
+            return "Id: " + Id +
                 "\nLogin: " + Login +
                 "\nPassword: " + Password +
                 "\nName: " + Name;
