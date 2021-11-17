@@ -14,7 +14,6 @@ namespace ServerUnitTestProject
         [TestCase("0")]
         [TestCase("1")]
         [TestCase("5")]
-        [TestCase("6")]
         public void TestFindOne(string value)
         {
             InterfaceServer iserv = new ServerExample.MongoDb.TestClass();

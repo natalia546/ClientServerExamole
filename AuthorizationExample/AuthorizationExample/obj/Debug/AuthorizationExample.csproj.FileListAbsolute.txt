@@ -1,0 +1,15 @@
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.csprojAssemblyReference.cache
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.Form1.resources
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.Properties.Resources.resources
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.UserControls.AuthorizationControl.resources
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.csproj.GenerateResource.cache
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.csproj.CoreCompileInputs.cache
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\bin\Debug\AuthorizationExample.exe.config
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\bin\Debug\AuthorizationExample.exe
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\bin\Debug\AuthorizationExample.pdb
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\bin\Debug\Newtonsoft.Json.dll
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\bin\Debug\websocket-sharp-standard.dll
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\bin\Debug\Newtonsoft.Json.xml
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.csproj.CopyComplete
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.exe
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.pdb
