@@ -13,3 +13,10 @@ D:\Git\Client server example\ClientServerExample\AuthorizationExample\Authorizat
 D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.csproj.CopyComplete
 D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.exe
 D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.pdb
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\bin\Debug\en\AuthorizationExample.resources.dll
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\bin\Debug\ru\AuthorizationExample.resources.dll
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.Languages.Language.resources
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.Languages.Language.en.resources
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\AuthorizationExample.Languages.Language.ru.resources
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\en\AuthorizationExample.resources.dll
+D:\Git\Client server example\ClientServerExample\AuthorizationExample\AuthorizationExample\obj\Debug\ru\AuthorizationExample.resources.dll

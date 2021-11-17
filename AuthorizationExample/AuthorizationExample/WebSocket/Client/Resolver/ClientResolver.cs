@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
-using ServerNewArc2010;
-using ServerNewArc2010.RtsimClasses;
+using WebSocketExample;
+using WebSocketExample.RtsimClasses;
 using System;
 using WebSocketProtocol.Models;
 using WebSocketProtocol.RouteSystem.Attributes;

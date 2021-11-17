@@ -29,77 +29,93 @@ namespace AuthorizationExample.UserControls
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.seepasswordbutton = new System.Windows.Forms.Button();
+            this.passwordtextBox = new System.Windows.Forms.TextBox();
+            this.logintextBox = new System.Windows.Forms.TextBox();
+            this.passwordlabel = new System.Windows.Forms.Label();
+            this.loginlabel = new System.Windows.Forms.Label();
+            this.sendbutton = new System.Windows.Forms.Button();
+            this.langbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button2
+            // seepasswordbutton
             // 
-            this.button2.Location = new System.Drawing.Point(237, 97);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(91, 23);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Посмотреть";
-            this.button2.UseVisualStyleBackColor = true;
+            this.seepasswordbutton.Location = new System.Drawing.Point(208, 59);
+            this.seepasswordbutton.Name = "seepasswordbutton";
+            this.seepasswordbutton.Size = new System.Drawing.Size(91, 23);
+            this.seepasswordbutton.TabIndex = 11;
+            this.seepasswordbutton.Text = "Посмотреть";
+            this.seepasswordbutton.UseVisualStyleBackColor = true;
+            this.seepasswordbutton.Click += new System.EventHandler(this.seepasswordbutton_Click);
             // 
-            // textBox2
+            // passwordtextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(120, 99);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 10;
-            this.textBox2.UseSystemPasswordChar = true;
+            this.passwordtextBox.Location = new System.Drawing.Point(91, 61);
+            this.passwordtextBox.Name = "passwordtextBox";
+            this.passwordtextBox.Size = new System.Drawing.Size(100, 20);
+            this.passwordtextBox.TabIndex = 10;
+            this.passwordtextBox.UseSystemPasswordChar = true;
             // 
-            // textBox1
+            // logintextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(120, 67);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 9;
+            this.logintextBox.Location = new System.Drawing.Point(91, 29);
+            this.logintextBox.Name = "logintextBox";
+            this.logintextBox.Size = new System.Drawing.Size(100, 20);
+            this.logintextBox.TabIndex = 9;
             // 
-            // label2
+            // passwordlabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 99);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Password";
+            this.passwordlabel.AutoSize = true;
+            this.passwordlabel.Location = new System.Drawing.Point(24, 61);
+            this.passwordlabel.Name = "passwordlabel";
+            this.passwordlabel.Size = new System.Drawing.Size(53, 13);
+            this.passwordlabel.TabIndex = 8;
+            this.passwordlabel.Text = "Password";
             // 
-            // label1
+            // loginlabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 67);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Login";
+            this.loginlabel.AutoSize = true;
+            this.loginlabel.Location = new System.Drawing.Point(21, 29);
+            this.loginlabel.Name = "loginlabel";
+            this.loginlabel.Size = new System.Drawing.Size(33, 13);
+            this.loginlabel.TabIndex = 7;
+            this.loginlabel.Text = "Login";
             // 
-            // button1
+            // sendbutton
             // 
-            this.button1.Location = new System.Drawing.Point(120, 148);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Отправить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.sendbutton.Location = new System.Drawing.Point(91, 97);
+            this.sendbutton.Name = "sendbutton";
+            this.sendbutton.Size = new System.Drawing.Size(100, 23);
+            this.sendbutton.TabIndex = 6;
+            this.sendbutton.Text = "Отправить";
+            this.sendbutton.UseVisualStyleBackColor = true;
+            this.sendbutton.Click += new System.EventHandler(this.sendbutton_Click);
+            // 
+            // langbutton
+            // 
+            this.langbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.langbutton.Location = new System.Drawing.Point(271, 97);
+            this.langbutton.Name = "langbutton";
+            this.langbutton.Size = new System.Drawing.Size(28, 23);
+            this.langbutton.TabIndex = 12;
+            this.langbutton.Text = "ru";
+            this.langbutton.UseVisualStyleBackColor = true;
+            this.langbutton.Click += new System.EventHandler(this.langbutton_Click);
             // 
             // AuthorizationControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.langbutton);
+            this.Controls.Add(this.seepasswordbutton);
+            this.Controls.Add(this.passwordtextBox);
+            this.Controls.Add(this.logintextBox);
+            this.Controls.Add(this.passwordlabel);
+            this.Controls.Add(this.loginlabel);
+            this.Controls.Add(this.sendbutton);
             this.Name = "AuthorizationControl";
-            this.Size = new System.Drawing.Size(379, 239);
+            this.Size = new System.Drawing.Size(333, 184);
+            this.Load += new System.EventHandler(this.AuthorizationControl_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,11 +123,12 @@ namespace AuthorizationExample.UserControls
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button seepasswordbutton;
+        private System.Windows.Forms.TextBox passwordtextBox;
+        private System.Windows.Forms.TextBox logintextBox;
+        private System.Windows.Forms.Label passwordlabel;
+        private System.Windows.Forms.Label loginlabel;
+        private System.Windows.Forms.Button sendbutton;
+        private System.Windows.Forms.Button langbutton;
     }
 }

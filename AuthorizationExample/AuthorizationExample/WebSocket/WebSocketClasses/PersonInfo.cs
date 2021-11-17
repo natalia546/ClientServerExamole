@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using WebSocketProtocol.Models;
 
-namespace ServerNewArc2010.RtsimClasses
+namespace WebSocketExample.RtsimClasses
 {
     public class PersonInfo : Data
     {
@@ -11,8 +11,7 @@ namespace ServerNewArc2010.RtsimClasses
         public string FullName { set; get; }
         public string Position { set; get; }
         public string Rating { set; get; }
-        public List<ExerciseInfo> Exercises { set; get; }
-
+       
         public override string ToString()
         {
             return "Login: " + Id +

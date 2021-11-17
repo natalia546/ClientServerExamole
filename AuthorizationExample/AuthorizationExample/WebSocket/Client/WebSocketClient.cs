@@ -1,8 +1,5 @@
 ﻿using System;
 using Newtonsoft.Json;
-using ServerNewArc2010;
-using ServerNewArc2010.Client.Resolver;
-using ServerNewArc2010.RtsimClasses;
 using WebSocketProtocol.Client.Resolver;
 using WebSocketProtocol.Models;
 using WebSocketProtocol.RouteSystem;
@@ -20,13 +17,13 @@ namespace WebSocketProtocol.Client
         public event Action DisconnectedEvent;
         public event Action<string> ConnectionErrorEvent;
         
-        private RtsimChangeClientResolver _clientResolver;
+        private ClientResolver _clientResolver;
       
 
         public Router routeSystem;
 
         public WebSocket Client {get {return _webSocketClient;}}
-        public RtsimChangeClientResolver ClientsResolver
+        public ClientResolver ClientsResolver
         {
             get {return _clientResolver;}
             set { _clientResolver = value; }
@@ -40,7 +37,7 @@ namespace WebSocketProtocol.Client
 
         private void InitializeVariables()
         {
-            _clientResolver = _clientResolver ?? new RtsimChangeClientResolver();
+            _clientResolver = _clientResolver ?? new ClientResolver();
             
             AddClientEvents();
             GenerateRouter();

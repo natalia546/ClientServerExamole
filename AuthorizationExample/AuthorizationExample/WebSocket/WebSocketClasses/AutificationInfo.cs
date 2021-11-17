@@ -1,6 +1,6 @@
 ﻿using WebSocketProtocol.Models;
 
-namespace ServerNewArc2010.RtsimClasses
+namespace WebSocketExample.RtsimClasses
 {
     public class AutificationInfo:Data
     {

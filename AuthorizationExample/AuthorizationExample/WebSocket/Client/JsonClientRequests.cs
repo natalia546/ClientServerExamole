@@ -1,6 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json;
-using ServerNewArc2010.RtsimClasses;
+using WebSocketExample.RtsimClasses;
 using WebSocketProtocol.Models;
 
 namespace WebSocketProtocolz.Client

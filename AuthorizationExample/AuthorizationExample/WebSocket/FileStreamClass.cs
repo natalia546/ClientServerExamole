@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServerNewArc2010
+namespace WebSocketExample
 {
     /// <summary>
     /// класс для записи логов

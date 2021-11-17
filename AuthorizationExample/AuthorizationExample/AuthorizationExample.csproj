@@ -58,6 +58,21 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Languages\Language.en.Designer.cs">
+      <DependentUpon>Language.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Languages\Language.ru.Designer.cs">
+      <DependentUpon>Language.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Languages\Language.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Language.resx</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserControls\AuthorizationControl.cs">
@@ -66,6 +81,7 @@
     <Compile Include="UserControls\AuthorizationControl.Designer.cs">
       <DependentUpon>AuthorizationControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Languages\LanguageEnum.cs" />
     <Compile Include="WebSocket\Common\Converters\DateTimeConverter.cs" />
     <Compile Include="WebSocket\Common\Logger.cs" />
     <Compile Include="WebSocket\FileStreamClass.cs" />
@@ -74,16 +90,26 @@
     <Compile Include="WebSocket\RouteSystem\Attributes\RouteAttribute.cs" />
     <Compile Include="WebSocket\RouteSystem\Router.cs" />
     <Compile Include="WebSocket\RouteSystem\RouterGenerator.cs" />
-    <Compile Include="WebSocket\RtsimServer\RtsimDefaultBehavior.cs" />
+    <Compile Include="WebSocket\Server\DefaultBehavior.cs" />
     <Compile Include="WebSocket\WebSocketClasses\AutificationInfo.cs" />
-    <Compile Include="WebSocket\WebSocketClasses\ExerciseInfo.cs" />
     <Compile Include="WebSocket\WebSocketClasses\PersonInfo.cs" />
-    <Compile Include="WebSocket\RtsimClient\Resolver\RtsimChangeClientResolver.cs" />
-    <Compile Include="WebSocket\RtsimClient\Resolver\RtsimClientResolver.cs" />
-    <Compile Include="WebSocket\RtsimClient\RtsimJsonClientRequests.cs" />
-    <Compile Include="WebSocket\RtsimClient\RtsimWebSocketClient.cs" />
+    <Compile Include="WebSocket\Client\Resolver\ClientResolver.cs" />
+    <Compile Include="WebSocket\Client\JsonClientRequests.cs" />
+    <Compile Include="WebSocket\Client\WebSocketClient.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Language.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Language.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Language.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
