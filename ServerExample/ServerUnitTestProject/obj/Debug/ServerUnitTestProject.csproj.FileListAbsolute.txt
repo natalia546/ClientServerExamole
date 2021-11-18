@@ -37,3 +37,6 @@ D:\Git\Client server example\ClientServerExample\ServerExample\ServerUnitTestPro
 D:\Git\Client server example\ClientServerExample\ServerExample\ServerUnitTestProject\obj\Debug\ServerUnitTestProject.csproj.CopyComplete
 D:\Git\Client server example\ClientServerExample\ServerExample\ServerUnitTestProject\obj\Debug\ServerUnitTestProject.dll
 D:\Git\Client server example\ClientServerExample\ServerExample\ServerUnitTestProject\obj\Debug\ServerUnitTestProject.pdb
+D:\Git\Client server example\ClientServerExample\ServerExample\ServerUnitTestProject\bin\Debug\Newtonsoft.Json.dll
+D:\Git\Client server example\ClientServerExample\ServerExample\ServerUnitTestProject\bin\Debug\websocket-sharp-standard.dll
+D:\Git\Client server example\ClientServerExample\ServerExample\ServerUnitTestProject\bin\Debug\Newtonsoft.Json.xml

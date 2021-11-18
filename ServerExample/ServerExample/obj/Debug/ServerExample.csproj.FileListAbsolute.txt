@@ -37,3 +37,4 @@ D:\Git\Client server example\ClientServerExample\ServerExample\ServerExample\obj
 D:\Git\Client server example\ClientServerExample\ServerExample\ServerExample\obj\Debug\ServerExample.csproj.CopyComplete
 D:\Git\Client server example\ClientServerExample\ServerExample\ServerExample\obj\Debug\ServerExample.exe
 D:\Git\Client server example\ClientServerExample\ServerExample\ServerExample\obj\Debug\ServerExample.pdb
+D:\Git\Client server example\ClientServerExample\ServerExample\ServerExample\bin\Debug\websocket-sharp-standard.dll
